@@ -3,7 +3,7 @@
 if [ $# -eq 0 ]; then
 	echo "Usage: $0 <path/to/test_file>"
 	echo "Ex: $0 srcs/list/size.cpp"
-	exit
+	exit 0
 fi
 
 source fct.sh && cmp_one $*

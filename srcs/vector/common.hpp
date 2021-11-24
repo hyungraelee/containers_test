@@ -19,7 +19,7 @@ void	printSize(TESTED_NAMESPACE::vector<T> const &vct, bool print_content = true
 
 	std::cout << "size: " << size << std::endl;
 	std::cout << "capacity: " << isCapacityOk << std::endl;
-	std::cout << "max_size: " << vct.max_size() << std::endl;
+	// std::cout << "max_size: " << vct.max_size() << std::endl;
 	if (print_content)
 	{
 		typename TESTED_NAMESPACE::vector<T>::const_iterator it = vct.begin();

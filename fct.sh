@@ -10,7 +10,7 @@ PURPLE="\e[95m"
 CYAN="\e[96m"
 DGREY="\e[1;90m"
 
-tested_path="../"
+tested_path="../../includes"
 incl_path="$tested_path"
 srcs="srcs"
 
@@ -162,4 +162,5 @@ function main () {
 		printf "%40s\n" $container
 		do_test $container 2>/dev/null
 	done
+	return 0;
 }
